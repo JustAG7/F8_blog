@@ -1,0 +1,26 @@
+{
+  "name": "f8_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustAG7/F8_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "justa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustAG7/F8_blog/issues"
+  },
+  "homepage": "https://github.com/JustAG7/F8_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
