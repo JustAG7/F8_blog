@@ -21,7 +21,9 @@ app.set('views', path.join(__dirname, 'resources/views'));
 app.get("/", (req,res) =>{
     res.render("table_courses");
 })
-
+app.get("/login",(req,res)=>{
+    res.render("log_in");
+})
 //route
 app.listen(port, ()=>{
     console.log(`Example app listening at http://localhost:${port}`)
